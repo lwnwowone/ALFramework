@@ -1,0 +1,27 @@
+{
+  "name": "ALFramework",
+  "version": "0.1.0",
+  "summary": "Personal library for developing.",
+  "description": "Personal library for developing.",
+  "homepage": "https://github.com/lwnwowone/ALFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlancLiu": "lwnwowone@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lwnwowone/ALFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ALFramework/Classes/**/*",
+  "dependencies": {
+    "WCDB": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module ALFramework {
+  umbrella header "ALFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

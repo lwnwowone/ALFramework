@@ -1,0 +1,20 @@
+PODS:
+  - ALFramework (0.1.0):
+    - WCDB
+  - WCDB (1.0.3)
+
+DEPENDENCIES:
+  - ALFramework (from `../`)
+  - WCDB (~> 1.0.3)
+
+EXTERNAL SOURCES:
+  ALFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ALFramework: 815d69c594c5a8fa5384f3eb6b7074d4863f74e9
+  WCDB: 1f32cb4d3fa59ec36afdf827614e9f014fa5bce4
+
+PODFILE CHECKSUM: e9fd23a5488bdd006535ebe2e77acec09e0e1949
+
+COCOAPODS: 1.2.1

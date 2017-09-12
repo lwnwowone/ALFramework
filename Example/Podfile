@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ALFramework_Tests' do
+  pod 'ALFramework', :path => '../'
+  pod ‘WCDB’,’~>1.0.3’
+  
+end

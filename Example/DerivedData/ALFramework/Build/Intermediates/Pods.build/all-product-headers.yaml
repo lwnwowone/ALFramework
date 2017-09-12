@@ -1,0 +1,1050 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/alanc/ALFramework/Example/DerivedData/ALFramework/Build/Products/Debug-iphonesimulator/ALFramework/ALFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ALAPITestingFunction.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Testing/ALAPITestingFunction.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALActionResult.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALActionResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALAlertMessage.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALAlertMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALAlertView.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Components/ALAlertView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALBasicToolBox.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALBasicToolBox.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALButton.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/CustomControl/ALButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALCommonMacros.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALCommonMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALCustomPopUp.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Components/ALCustomPopUp.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALDataRow.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/LocalDatabase/ALDataRow.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALDataTable.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/LocalDatabase/ALDataTable.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALDatabaseParameter.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/LocalDatabase/ALDatabaseParameter.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALDateUitil.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALDateUitil.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALEncryptionToolBox.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALEncryptionToolBox.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALFileHelper.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALFileHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALFramework-Swift.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/DerivedData/ALFramework/Build/Products/Debug-iphonesimulator/ALFramework/ALFramework.framework/Headers/ALFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALFramework-umbrella.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/Target Support Files/ALFramework/ALFramework-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALFramework.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/ALFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALGradientLoadingIndicator.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Components/ALGradientLoadingIndicator.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALHttpRequest.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Network/ALHttpRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALImageAdjustmentView.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Components/ALImageAdjustmentView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALImagePickerView.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Components/ALImagePickerView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALJsonHelper.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALJsonHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALLocalizationHelper.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Localization/ALLocalizationHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALLogHelper.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/LogHelper/ALLogHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALLogMeta+WCTTableCoding.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/LogHelper/ALLogMeta+WCTTableCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALLogMeta.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/LogHelper/ALLogMeta.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALNetworkHelper.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Network/ALNetworkHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALPatentUitil.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALPatentUitil.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALQRCodeCreator.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALQRCodeCreator.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALRefreshControl.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/CustomControl/ALRefreshControl.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALScanQRCodeHelper.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALScanQRCodeHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALSqliteHelper.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/LocalDatabase/ALSqliteHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALTask.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/TaskManager/ALTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALTaskChain.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/TaskManager/ALTaskChain.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALTaskGroup.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/TaskManager/ALTaskGroup.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALTaskManager.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/TaskManager/ALTaskManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALThouchIDUitil.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALThouchIDUitil.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALThousandSeparatorLabel.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Components/ALThousandSeparatorLabel.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALThousandSeparatorTextField.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Components/ALThousandSeparatorTextField.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALThousandSeparatorUitil.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALThousandSeparatorUitil.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALTimer.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALTimer.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALTimerManager.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Support/ALTimerManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "ALUIBarButtonItem.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/CustomControl/ALUIBarButtonItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+ALExtension.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Category/NSString+ALExtension.h"
+        },
+        {
+          'type': 'file',
+          'name': "Reachability.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/3rd_party_lib/Reachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+ALExtension.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Category/UIImage+ALExtension.h"
+        },
+        {
+          'type': 'file',
+          'name': "UINavigationController+ALExtension.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Category/UINavigationController+ALExtension.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+TestingFunction.h",
+          'external-contents': "/Users/alanc/ALFramework/ALFramework/Classes/Testing/UIView+TestingFunction.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/alanc/ALFramework/Example/DerivedData/ALFramework/Build/Products/Debug-iphonesimulator/ALFramework/ALFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/alanc/ALFramework/Example/DerivedData/ALFramework/Build/Intermediates/Pods.build/Debug-iphonesimulator/ALFramework.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/alanc/ALFramework/Example/DerivedData/ALFramework/Build/Products/Debug-iphonesimulator/WCDB/WCDB.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SQLiteRepairKit.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/repair/SQLiteRepairKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCDB-Swift.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/DerivedData/ALFramework/Build/Products/Debug-iphonesimulator/WCDB/WCDB.framework/Headers/WCDB-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCDB-umbrella.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/Target Support Files/WCDB/WCDB-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCDB.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/WCDB.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTAnyProperty.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/coding/WCTAnyProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTBaseAccessor.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/accessor/WCTBaseAccessor.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTBinding.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/binding/WCTBinding.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTChainCall+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTChainCall+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTChainCall+Statistics.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/statictics/WCTChainCall+Statistics.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTChainCall.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTChainCall.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTCoding.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/coding/WCTCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTCodingMacro.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/macro/WCTCodingMacro.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTColumnBinding.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/binding/WCTColumnBinding.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTCompatible.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/compatible/WCTCompatible.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTConstraintBinding.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/binding/WCTConstraintBinding.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTConstraintMacro.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/macro/WCTConstraintMacro.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTCore+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/core/WCTCore+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTCore.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/core/WCTCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTCppAccessor.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/accessor/WCTCppAccessor.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDatabase+Core.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/core/WCTDatabase+Core.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDatabase+Database.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/database/WCTDatabase+Database.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDatabase+File.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/database/WCTDatabase+File.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDatabase+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/database/WCTDatabase+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDatabase+RepairKit.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/database/WCTDatabase+RepairKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDatabase+Statistics.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/statictics/WCTDatabase+Statistics.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDatabase+Table.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/table/WCTDatabase+Table.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDatabase+Transaction.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/transaction/WCTDatabase+Transaction.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDatabase.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/declare/WCTDatabase.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDeclare.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/declare/WCTDeclare.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDelete+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTDelete+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTDelete.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTDelete.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTError+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/statictics/WCTError+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTError.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/statictics/WCTError.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTExpr.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/coding/WCTExpr.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTIndexBinding.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/binding/WCTIndexBinding.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTIndexMacro.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/macro/WCTIndexMacro.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTInsert+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTInsert+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTInsert.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTInsert.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTInterface+ChainCall.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTInterface+ChainCall.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTInterface+Convenient.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/convenient/WCTInterface+Convenient.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTInterface+Core.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/core/WCTInterface+Core.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTInterface+Table.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/table/WCTInterface+Table.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTInterface.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/declare/WCTInterface.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTMacroHelper.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/macro/WCTMacroHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTMaster+WCTTableCoding.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/builtin/WCTMaster+WCTTableCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTMaster.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/builtin/WCTMaster.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTMultiSelect+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTMultiSelect+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTMultiSelect.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTMultiSelect.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTORM.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/WCTORM.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTObjCAccessor.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/accessor/WCTObjCAccessor.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTProperty.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/coding/WCTProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTPropertyBase.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/coding/WCTPropertyBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTPropertyMacro.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/macro/WCTPropertyMacro.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTResult.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/coding/WCTResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTRowSelect+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTRowSelect+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTRowSelect.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTRowSelect.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTRuntimeBaseAccessor.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/accessor/WCTRuntimeBaseAccessor.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTRuntimeCppAccessor.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/accessor/WCTRuntimeCppAccessor.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTRuntimeObjCAccessor.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/accessor/WCTRuntimeObjCAccessor.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTSelect+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTSelect+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTSelect.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTSelect.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTSelectBase+NoARC.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTSelectBase+NoARC.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTSelectBase+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTSelectBase+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTSelectBase+WCTExpr.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/orm/coding/WCTSelectBase+WCTExpr.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTSelectBase.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTSelectBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTSequence+WCTTableCoding.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/builtin/WCTSequence+WCTTableCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTSequence.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/builtin/WCTSequence.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTStatement+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/core/WCTStatement+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTStatement.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/core/WCTStatement.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTStatistics+Compatible.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/compatible/WCTStatistics+Compatible.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTStatistics.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/statictics/WCTStatistics.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTTable+ChainCall.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTTable+ChainCall.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTTable+Convenient.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/convenient/WCTTable+Convenient.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTTable+Database.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/table/WCTTable+Database.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTTable+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/table/WCTTable+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTTable.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/declare/WCTTable.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTTransaction+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/transaction/WCTTransaction+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTTransaction+Statistics.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/statictics/WCTTransaction+Statistics.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTTransaction+Table.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/table/WCTTransaction+Table.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTTransaction.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/transaction/WCTTransaction.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTUpdate+Private.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTUpdate+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTUpdate.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/chaincall/WCTUpdate.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCTValue.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/interface/core/WCTValue.h"
+        },
+        {
+          'type': 'file',
+          'name': "WINQ.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/WINQ.h"
+        },
+        {
+          'type': 'file',
+          'name': "clause_join.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/clause_join.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "column.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/column.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "column_def.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/column_def.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "column_index.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/column_index.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "column_result.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/column_result.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "column_type.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/column_type.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "concurrent_list.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/concurrent_list.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "config.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/core/config.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "conflict.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/conflict.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "constraint_table.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/constraint_table.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "core_base.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/core/core_base.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "database.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/core/database.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "declare.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/declare.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "describable.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/describable.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "error.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/error.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "expr.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/expr.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "file.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/file.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "foreign_key.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/foreign_key.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "handle.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/handle.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "handle_pool.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/core/handle_pool.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "handle_recyclable.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/core/handle_recyclable.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "handle_statement.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/handle_statement.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "in_case_lock_guard.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/in_case_lock_guard.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "macro.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/macro.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "module_argument.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/module_argument.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "order.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/order.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "order_term.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/order_term.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "path.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/path.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "pragma.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/pragma.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "recyclable.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/recyclable.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "rwlock.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/rwlock.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "spin.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/spin.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "sqlite3.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/sqlcipher/sqlite3.h"
+        },
+        {
+          'type': 'file',
+          'name': "sqliterk.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/repair/sqliterk.h"
+        },
+        {
+          'type': 'file',
+          'name': "sqliterk_btree.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/repair/sqliterk_btree.h"
+        },
+        {
+          'type': 'file',
+          'name': "sqliterk_column.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/repair/sqliterk_column.h"
+        },
+        {
+          'type': 'file',
+          'name': "sqliterk_crypto.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/repair/sqliterk_crypto.h"
+        },
+        {
+          'type': 'file',
+          'name': "sqliterk_os.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/repair/sqliterk_os.h"
+        },
+        {
+          'type': 'file',
+          'name': "sqliterk_pager.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/repair/sqliterk_pager.h"
+        },
+        {
+          'type': 'file',
+          'name': "sqliterk_util.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/repair/sqliterk_util.h"
+        },
+        {
+          'type': 'file',
+          'name': "sqliterk_values.h",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/repair/sqliterk_values.h"
+        },
+        {
+          'type': 'file',
+          'name': "statement.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_alter_table.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_alter_table.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_attach.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_attach.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_create_index.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_create_index.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_create_table.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_create_table.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_create_virtual_table.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_create_virtual_table.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_delete.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_delete.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_detach.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_detach.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_drop_index.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_drop_index.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_drop_table.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_drop_table.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_explain.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_explain.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_insert.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_insert.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_pragma.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_pragma.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_recyclable.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/core/statement_recyclable.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_reindex.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_reindex.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_release.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_release.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_rollback.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_rollback.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_savepoint.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_savepoint.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_select.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_select.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_transaction.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_transaction.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_update.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_update.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "statement_vacuum.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/statement_vacuum.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "subquery.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/subquery.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "thread_local.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/thread_local.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "ticker.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/ticker.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "timed_queue.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/timed_queue.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "transaction.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/core/transaction.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "utility.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/util/utility.hpp"
+        },
+        {
+          'type': 'file',
+          'name': "value_pragma.hpp",
+          'external-contents': "/Users/alanc/ALFramework/Example/Pods/WCDB/apple/WCDB/abstract/value_pragma.hpp"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/alanc/ALFramework/Example/DerivedData/ALFramework/Build/Products/Debug-iphonesimulator/WCDB/WCDB.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/alanc/ALFramework/Example/DerivedData/ALFramework/Build/Intermediates/Pods.build/Debug-iphonesimulator/WCDB.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

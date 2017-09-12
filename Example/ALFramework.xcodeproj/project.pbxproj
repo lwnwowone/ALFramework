@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		C722E15C1F4C246D00FDE2A9 /* ALActionResultStandardError.m in Sources */ = {isa = PBXBuildFile; fileRef = C722E15B1F4C246D00FDE2A9 /* ALActionResultStandardError.m */; };
+		C722E15F1F4C28BE00FDE2A9 /* ALTaskGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C722E15E1F4C28BE00FDE2A9 /* ALTaskGroup.m */; };
+		C7250A641F5421DF0073139C /* ALQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C7250A631F5421DF0073139C /* ALQueue.m */; };
+		C7250A6F1F55108F0073139C /* ALExeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C7250A6E1F55108F0073139C /* ALExeItem.m */; };
+		C7277C8E1F46D3780068A8EF /* ALAPITestingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277C8B1F46D3780068A8EF /* ALAPITestingFunction.m */; };
+		C7277C8F1F46D3780068A8EF /* UIView+ALTestingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277C8D1F46D3780068A8EF /* UIView+ALTestingFunction.m */; };
+		C7277C931F46D3B50068A8EF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277C921F46D3B50068A8EF /* Reachability.m */; };
+		C7277C9A1F46D3BF0068A8EF /* NSString+ALExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277C951F46D3BF0068A8EF /* NSString+ALExtension.m */; };
+		C7277C9B1F46D3BF0068A8EF /* UIImage+ALExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277C971F46D3BF0068A8EF /* UIImage+ALExtension.m */; };
+		C7277C9C1F46D3BF0068A8EF /* UINavigationController+ALExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277C991F46D3BF0068A8EF /* UINavigationController+ALExtension.m */; };
+		C7277CAB1F46D3C70068A8EF /* ALAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277C9E1F46D3C70068A8EF /* ALAlertView.m */; };
+		C7277CAC1F46D3C70068A8EF /* ALCustomPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CA01F46D3C70068A8EF /* ALCustomPopUp.m */; };
+		C7277CAD1F46D3C70068A8EF /* ALGradientLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CA21F46D3C70068A8EF /* ALGradientLoadingIndicator.m */; };
+		C7277CAE1F46D3C70068A8EF /* ALImageAdjustmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CA41F46D3C70068A8EF /* ALImageAdjustmentView.m */; };
+		C7277CAF1F46D3C70068A8EF /* ALImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CA61F46D3C70068A8EF /* ALImagePickerView.m */; };
+		C7277CB01F46D3C70068A8EF /* ALThousandSeparatorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CA81F46D3C70068A8EF /* ALThousandSeparatorLabel.m */; };
+		C7277CB11F46D3C70068A8EF /* ALThousandSeparatorTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CAA1F46D3C70068A8EF /* ALThousandSeparatorTextField.m */; };
+		C7277CB81F46D3D20068A8EF /* ALButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CB31F46D3D20068A8EF /* ALButton.m */; };
+		C7277CB91F46D3D20068A8EF /* ALRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CB51F46D3D20068A8EF /* ALRefreshControl.m */; };
+		C7277CBA1F46D3D20068A8EF /* ALUIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CB71F46D3D20068A8EF /* ALUIBarButtonItem.m */; };
+		C7277CBD1F46D3DB0068A8EF /* ALLocalizationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CBC1F46D3DB0068A8EF /* ALLocalizationHelper.m */; };
+		C7277CC31F46D3E50068A8EF /* ALLogHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7277CBF1F46D3E50068A8EF /* ALLogHelper.mm */; };
+		C7277CC41F46D3E50068A8EF /* ALLogMeta.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7277CC11F46D3E50068A8EF /* ALLogMeta.mm */; };
+		C7277CC91F46D3EE0068A8EF /* ALHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CC61F46D3EE0068A8EF /* ALHttpRequest.m */; };
+		C7277CCA1F46D3EE0068A8EF /* ALNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CC81F46D3EE0068A8EF /* ALNetworkHelper.m */; };
+		C7277CE81F46D3F70068A8EF /* ALActionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CCC1F46D3F70068A8EF /* ALActionResult.m */; };
+		C7277CE91F46D3F70068A8EF /* ALAlertMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CCE1F46D3F70068A8EF /* ALAlertMessage.m */; };
+		C7277CEA1F46D3F70068A8EF /* ALBasicToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CD01F46D3F70068A8EF /* ALBasicToolBox.m */; };
+		C7277CEB1F46D3F70068A8EF /* ALDateUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CD31F46D3F70068A8EF /* ALDateUitil.m */; };
+		C7277CEC1F46D3F70068A8EF /* ALEncryptionToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CD51F46D3F70068A8EF /* ALEncryptionToolBox.m */; };
+		C7277CED1F46D3F70068A8EF /* ALFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CD71F46D3F70068A8EF /* ALFileHelper.m */; };
+		C7277CEE1F46D3F70068A8EF /* ALJsonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CD91F46D3F70068A8EF /* ALJsonHelper.m */; };
+		C7277CEF1F46D3F70068A8EF /* ALPatentUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CDB1F46D3F70068A8EF /* ALPatentUitil.m */; };
+		C7277CF01F46D3F70068A8EF /* ALQRCodeCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CDD1F46D3F70068A8EF /* ALQRCodeCreator.m */; };
+		C7277CF11F46D3F70068A8EF /* ALScanQRCodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CDF1F46D3F70068A8EF /* ALScanQRCodeHelper.m */; };
+		C7277CF21F46D3F70068A8EF /* ALThouchIDUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CE11F46D3F70068A8EF /* ALThouchIDUitil.m */; };
+		C7277CF31F46D3F70068A8EF /* ALThousandSeparatorUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CE31F46D3F70068A8EF /* ALThousandSeparatorUitil.m */; };
+		C7277CF41F46D3F70068A8EF /* ALTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CE51F46D3F70068A8EF /* ALTimer.m */; };
+		C7277CF51F46D3F70068A8EF /* ALTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CE71F46D3F70068A8EF /* ALTimerManager.m */; };
+		C7277CFE1F46D4030068A8EF /* ALTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CF71F46D4030068A8EF /* ALTask.m */; };
+		C7277CFF1F46D4030068A8EF /* ALTaskChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CF91F46D4030068A8EF /* ALTaskChain.m */; };
+		C7277D001F46D4030068A8EF /* ALTaskArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CFB1F46D4030068A8EF /* ALTaskArray.m */; };
+		C7277D011F46D4030068A8EF /* ALTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CFD1F46D4030068A8EF /* ALTaskManager.m */; };
+		C7DD32371F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD32361F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m */; };
+		C7DD323A1F5909BB00C4380B /* ALExeItemQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD32391F5909BB00C4380B /* ALExeItemQueue.m */; };
+		EEF55D8798E12F652EADA295 /* Pods_ALFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD3D798159E361BCA7DE855 /* Pods_ALFramework_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20D0B6A4AE714365B298CE30 /* Pods-ALFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALFramework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALFramework_Tests/Pods-ALFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		254C2A01578E6672FCBD7B54 /* ALFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ALFramework.podspec; path = ../ALFramework.podspec; sourceTree = "<group>"; };
+		524B87AB5BB5F38E565BE6C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F5AE195388D20070C39A /* ALFramework_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALFramework_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6886839A9895763D57714D0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6FD3D798159E361BCA7DE855 /* Pods_ALFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C722E1411F4C21BD00FDE2A9 /* ALFrameworkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALFrameworkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C722E15A1F4C246D00FDE2A9 /* ALActionResultStandardError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALActionResultStandardError.h; path = ../ALFramework/Classes/Support/ALActionResultStandardError.h; sourceTree = "<group>"; };
+		C722E15B1F4C246D00FDE2A9 /* ALActionResultStandardError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALActionResultStandardError.m; path = ../ALFramework/Classes/Support/ALActionResultStandardError.m; sourceTree = "<group>"; };
+		C722E15D1F4C28BE00FDE2A9 /* ALTaskGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTaskGroup.h; path = ../ALFramework/Classes/TaskManager/ALTaskGroup.h; sourceTree = "<group>"; };
+		C722E15E1F4C28BE00FDE2A9 /* ALTaskGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskGroup.m; path = ../ALFramework/Classes/TaskManager/ALTaskGroup.m; sourceTree = "<group>"; };
+		C722E1601F4C2B0E00FDE2A9 /* ALFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALFramework.framework; path = "Pods/../build/Debug-iphoneos/ALFramework/ALFramework.framework"; sourceTree = "<group>"; };
+		C7250A621F5421DF0073139C /* ALQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALQueue.h; path = ../ALFramework/Classes/CustomClass/ALQueue.h; sourceTree = "<group>"; };
+		C7250A631F5421DF0073139C /* ALQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALQueue.m; path = ../ALFramework/Classes/CustomClass/ALQueue.m; sourceTree = "<group>"; };
+		C7250A6D1F55108F0073139C /* ALExeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALExeItem.h; path = ../ALFramework/Classes/TaskManager/ALExeItem.h; sourceTree = "<group>"; };
+		C7250A6E1F55108F0073139C /* ALExeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALExeItem.m; path = ../ALFramework/Classes/TaskManager/ALExeItem.m; sourceTree = "<group>"; };
+		C7277C8A1F46D3780068A8EF /* ALAPITestingFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAPITestingFunction.h; path = ../ALFramework/Classes/Testing/ALAPITestingFunction.h; sourceTree = "<group>"; };
+		C7277C8B1F46D3780068A8EF /* ALAPITestingFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALAPITestingFunction.m; path = ../ALFramework/Classes/Testing/ALAPITestingFunction.m; sourceTree = "<group>"; };
+		C7277C8C1F46D3780068A8EF /* UIView+ALTestingFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ALTestingFunction.h"; path = "../ALFramework/Classes/Testing/UIView+ALTestingFunction.h"; sourceTree = "<group>"; };
+		C7277C8D1F46D3780068A8EF /* UIView+ALTestingFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ALTestingFunction.m"; path = "../ALFramework/Classes/Testing/UIView+ALTestingFunction.m"; sourceTree = "<group>"; };
+		C7277C901F46D3A90068A8EF /* ALFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALFramework.h; path = ../ALFramework/Classes/ALFramework.h; sourceTree = "<group>"; };
+		C7277C911F46D3B50068A8EF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../ALFramework/Classes/3rd_party_lib/Reachability.h; sourceTree = "<group>"; };
+		C7277C921F46D3B50068A8EF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../ALFramework/Classes/3rd_party_lib/Reachability.m; sourceTree = "<group>"; };
+		C7277C941F46D3BF0068A8EF /* NSString+ALExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ALExtension.h"; path = "../ALFramework/Classes/Category/NSString+ALExtension.h"; sourceTree = "<group>"; };
+		C7277C951F46D3BF0068A8EF /* NSString+ALExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ALExtension.m"; path = "../ALFramework/Classes/Category/NSString+ALExtension.m"; sourceTree = "<group>"; };
+		C7277C961F46D3BF0068A8EF /* UIImage+ALExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ALExtension.h"; path = "../ALFramework/Classes/Category/UIImage+ALExtension.h"; sourceTree = "<group>"; };
+		C7277C971F46D3BF0068A8EF /* UIImage+ALExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ALExtension.m"; path = "../ALFramework/Classes/Category/UIImage+ALExtension.m"; sourceTree = "<group>"; };
+		C7277C981F46D3BF0068A8EF /* UINavigationController+ALExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+ALExtension.h"; path = "../ALFramework/Classes/Category/UINavigationController+ALExtension.h"; sourceTree = "<group>"; };
+		C7277C991F46D3BF0068A8EF /* UINavigationController+ALExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+ALExtension.m"; path = "../ALFramework/Classes/Category/UINavigationController+ALExtension.m"; sourceTree = "<group>"; };
+		C7277C9D1F46D3C70068A8EF /* ALAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAlertView.h; path = ../ALFramework/Classes/Components/ALAlertView.h; sourceTree = "<group>"; };
+		C7277C9E1F46D3C70068A8EF /* ALAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALAlertView.m; path = ../ALFramework/Classes/Components/ALAlertView.m; sourceTree = "<group>"; };
+		C7277C9F1F46D3C70068A8EF /* ALCustomPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALCustomPopUp.h; path = ../ALFramework/Classes/Components/ALCustomPopUp.h; sourceTree = "<group>"; };
+		C7277CA01F46D3C70068A8EF /* ALCustomPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALCustomPopUp.m; path = ../ALFramework/Classes/Components/ALCustomPopUp.m; sourceTree = "<group>"; };
+		C7277CA11F46D3C70068A8EF /* ALGradientLoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALGradientLoadingIndicator.h; path = ../ALFramework/Classes/Components/ALGradientLoadingIndicator.h; sourceTree = "<group>"; };
+		C7277CA21F46D3C70068A8EF /* ALGradientLoadingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALGradientLoadingIndicator.m; path = ../ALFramework/Classes/Components/ALGradientLoadingIndicator.m; sourceTree = "<group>"; };
+		C7277CA31F46D3C70068A8EF /* ALImageAdjustmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALImageAdjustmentView.h; path = ../ALFramework/Classes/Components/ALImageAdjustmentView.h; sourceTree = "<group>"; };
+		C7277CA41F46D3C70068A8EF /* ALImageAdjustmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALImageAdjustmentView.m; path = ../ALFramework/Classes/Components/ALImageAdjustmentView.m; sourceTree = "<group>"; };
+		C7277CA51F46D3C70068A8EF /* ALImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALImagePickerView.h; path = ../ALFramework/Classes/Components/ALImagePickerView.h; sourceTree = "<group>"; };
+		C7277CA61F46D3C70068A8EF /* ALImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALImagePickerView.m; path = ../ALFramework/Classes/Components/ALImagePickerView.m; sourceTree = "<group>"; };
+		C7277CA71F46D3C70068A8EF /* ALThousandSeparatorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALThousandSeparatorLabel.h; path = ../ALFramework/Classes/Components/ALThousandSeparatorLabel.h; sourceTree = "<group>"; };
+		C7277CA81F46D3C70068A8EF /* ALThousandSeparatorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALThousandSeparatorLabel.m; path = ../ALFramework/Classes/Components/ALThousandSeparatorLabel.m; sourceTree = "<group>"; };
+		C7277CA91F46D3C70068A8EF /* ALThousandSeparatorTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALThousandSeparatorTextField.h; path = ../ALFramework/Classes/Components/ALThousandSeparatorTextField.h; sourceTree = "<group>"; };
+		C7277CAA1F46D3C70068A8EF /* ALThousandSeparatorTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALThousandSeparatorTextField.m; path = ../ALFramework/Classes/Components/ALThousandSeparatorTextField.m; sourceTree = "<group>"; };
+		C7277CB21F46D3D20068A8EF /* ALButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALButton.h; path = ../ALFramework/Classes/CustomControl/ALButton.h; sourceTree = "<group>"; };
+		C7277CB31F46D3D20068A8EF /* ALButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALButton.m; path = ../ALFramework/Classes/CustomControl/ALButton.m; sourceTree = "<group>"; };
+		C7277CB41F46D3D20068A8EF /* ALRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALRefreshControl.h; path = ../ALFramework/Classes/CustomControl/ALRefreshControl.h; sourceTree = "<group>"; };
+		C7277CB51F46D3D20068A8EF /* ALRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALRefreshControl.m; path = ../ALFramework/Classes/CustomControl/ALRefreshControl.m; sourceTree = "<group>"; };
+		C7277CB61F46D3D20068A8EF /* ALUIBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALUIBarButtonItem.h; path = ../ALFramework/Classes/CustomControl/ALUIBarButtonItem.h; sourceTree = "<group>"; };
+		C7277CB71F46D3D20068A8EF /* ALUIBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALUIBarButtonItem.m; path = ../ALFramework/Classes/CustomControl/ALUIBarButtonItem.m; sourceTree = "<group>"; };
+		C7277CBB1F46D3DB0068A8EF /* ALLocalizationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALLocalizationHelper.h; path = ../ALFramework/Classes/Localization/ALLocalizationHelper.h; sourceTree = "<group>"; };
+		C7277CBC1F46D3DB0068A8EF /* ALLocalizationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALLocalizationHelper.m; path = ../ALFramework/Classes/Localization/ALLocalizationHelper.m; sourceTree = "<group>"; };
+		C7277CBE1F46D3E50068A8EF /* ALLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALLogHelper.h; path = ../ALFramework/Classes/LogHelper/ALLogHelper.h; sourceTree = "<group>"; };
+		C7277CBF1F46D3E50068A8EF /* ALLogHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ALLogHelper.mm; path = ../ALFramework/Classes/LogHelper/ALLogHelper.mm; sourceTree = "<group>"; };
+		C7277CC01F46D3E50068A8EF /* ALLogMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALLogMeta.h; path = ../ALFramework/Classes/LogHelper/ALLogMeta.h; sourceTree = "<group>"; };
+		C7277CC11F46D3E50068A8EF /* ALLogMeta.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ALLogMeta.mm; path = ../ALFramework/Classes/LogHelper/ALLogMeta.mm; sourceTree = "<group>"; };
+		C7277CC21F46D3E50068A8EF /* ALLogMeta+WCTTableCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ALLogMeta+WCTTableCoding.h"; path = "../ALFramework/Classes/LogHelper/ALLogMeta+WCTTableCoding.h"; sourceTree = "<group>"; };
+		C7277CC51F46D3EE0068A8EF /* ALHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALHttpRequest.h; path = ../ALFramework/Classes/Network/ALHttpRequest.h; sourceTree = "<group>"; };
+		C7277CC61F46D3EE0068A8EF /* ALHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALHttpRequest.m; path = ../ALFramework/Classes/Network/ALHttpRequest.m; sourceTree = "<group>"; };
+		C7277CC71F46D3EE0068A8EF /* ALNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALNetworkHelper.h; path = ../ALFramework/Classes/Network/ALNetworkHelper.h; sourceTree = "<group>"; };
+		C7277CC81F46D3EE0068A8EF /* ALNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALNetworkHelper.m; path = ../ALFramework/Classes/Network/ALNetworkHelper.m; sourceTree = "<group>"; };
+		C7277CCB1F46D3F70068A8EF /* ALActionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALActionResult.h; path = ../ALFramework/Classes/Support/ALActionResult.h; sourceTree = "<group>"; };
+		C7277CCC1F46D3F70068A8EF /* ALActionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALActionResult.m; path = ../ALFramework/Classes/Support/ALActionResult.m; sourceTree = "<group>"; };
+		C7277CCD1F46D3F70068A8EF /* ALAlertMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAlertMessage.h; path = ../ALFramework/Classes/Support/ALAlertMessage.h; sourceTree = "<group>"; };
+		C7277CCE1F46D3F70068A8EF /* ALAlertMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALAlertMessage.m; path = ../ALFramework/Classes/Support/ALAlertMessage.m; sourceTree = "<group>"; };
+		C7277CCF1F46D3F70068A8EF /* ALBasicToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALBasicToolBox.h; path = ../ALFramework/Classes/Support/ALBasicToolBox.h; sourceTree = "<group>"; };
+		C7277CD01F46D3F70068A8EF /* ALBasicToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALBasicToolBox.m; path = ../ALFramework/Classes/Support/ALBasicToolBox.m; sourceTree = "<group>"; };
+		C7277CD11F46D3F70068A8EF /* ALCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALCommonMacros.h; path = ../ALFramework/Classes/Support/ALCommonMacros.h; sourceTree = "<group>"; };
+		C7277CD21F46D3F70068A8EF /* ALDateUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALDateUitil.h; path = ../ALFramework/Classes/Support/ALDateUitil.h; sourceTree = "<group>"; };
+		C7277CD31F46D3F70068A8EF /* ALDateUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALDateUitil.m; path = ../ALFramework/Classes/Support/ALDateUitil.m; sourceTree = "<group>"; };
+		C7277CD41F46D3F70068A8EF /* ALEncryptionToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALEncryptionToolBox.h; path = ../ALFramework/Classes/Support/ALEncryptionToolBox.h; sourceTree = "<group>"; };
+		C7277CD51F46D3F70068A8EF /* ALEncryptionToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALEncryptionToolBox.m; path = ../ALFramework/Classes/Support/ALEncryptionToolBox.m; sourceTree = "<group>"; };
+		C7277CD61F46D3F70068A8EF /* ALFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALFileHelper.h; path = ../ALFramework/Classes/Support/ALFileHelper.h; sourceTree = "<group>"; };
+		C7277CD71F46D3F70068A8EF /* ALFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALFileHelper.m; path = ../ALFramework/Classes/Support/ALFileHelper.m; sourceTree = "<group>"; };
+		C7277CD81F46D3F70068A8EF /* ALJsonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALJsonHelper.h; path = ../ALFramework/Classes/Support/ALJsonHelper.h; sourceTree = "<group>"; };
+		C7277CD91F46D3F70068A8EF /* ALJsonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALJsonHelper.m; path = ../ALFramework/Classes/Support/ALJsonHelper.m; sourceTree = "<group>"; };
+		C7277CDA1F46D3F70068A8EF /* ALPatentUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALPatentUitil.h; path = ../ALFramework/Classes/Support/ALPatentUitil.h; sourceTree = "<group>"; };
+		C7277CDB1F46D3F70068A8EF /* ALPatentUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALPatentUitil.m; path = ../ALFramework/Classes/Support/ALPatentUitil.m; sourceTree = "<group>"; };
+		C7277CDC1F46D3F70068A8EF /* ALQRCodeCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALQRCodeCreator.h; path = ../ALFramework/Classes/Support/ALQRCodeCreator.h; sourceTree = "<group>"; };
+		C7277CDD1F46D3F70068A8EF /* ALQRCodeCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALQRCodeCreator.m; path = ../ALFramework/Classes/Support/ALQRCodeCreator.m; sourceTree = "<group>"; };
+		C7277CDE1F46D3F70068A8EF /* ALScanQRCodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALScanQRCodeHelper.h; path = ../ALFramework/Classes/Support/ALScanQRCodeHelper.h; sourceTree = "<group>"; };
+		C7277CDF1F46D3F70068A8EF /* ALScanQRCodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALScanQRCodeHelper.m; path = ../ALFramework/Classes/Support/ALScanQRCodeHelper.m; sourceTree = "<group>"; };
+		C7277CE01F46D3F70068A8EF /* ALThouchIDUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALThouchIDUitil.h; path = ../ALFramework/Classes/Support/ALThouchIDUitil.h; sourceTree = "<group>"; };
+		C7277CE11F46D3F70068A8EF /* ALThouchIDUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALThouchIDUitil.m; path = ../ALFramework/Classes/Support/ALThouchIDUitil.m; sourceTree = "<group>"; };
+		C7277CE21F46D3F70068A8EF /* ALThousandSeparatorUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALThousandSeparatorUitil.h; path = ../ALFramework/Classes/Support/ALThousandSeparatorUitil.h; sourceTree = "<group>"; };
+		C7277CE31F46D3F70068A8EF /* ALThousandSeparatorUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALThousandSeparatorUitil.m; path = ../ALFramework/Classes/Support/ALThousandSeparatorUitil.m; sourceTree = "<group>"; };
+		C7277CE41F46D3F70068A8EF /* ALTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTimer.h; path = ../ALFramework/Classes/Support/ALTimer.h; sourceTree = "<group>"; };
+		C7277CE51F46D3F70068A8EF /* ALTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTimer.m; path = ../ALFramework/Classes/Support/ALTimer.m; sourceTree = "<group>"; };
+		C7277CE61F46D3F70068A8EF /* ALTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTimerManager.h; path = ../ALFramework/Classes/Support/ALTimerManager.h; sourceTree = "<group>"; };
+		C7277CE71F46D3F70068A8EF /* ALTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTimerManager.m; path = ../ALFramework/Classes/Support/ALTimerManager.m; sourceTree = "<group>"; };
+		C7277CF61F46D4030068A8EF /* ALTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTask.h; path = ../ALFramework/Classes/TaskManager/ALTask.h; sourceTree = "<group>"; };
+		C7277CF71F46D4030068A8EF /* ALTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTask.m; path = ../ALFramework/Classes/TaskManager/ALTask.m; sourceTree = "<group>"; };
+		C7277CF81F46D4030068A8EF /* ALTaskChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTaskChain.h; path = ../ALFramework/Classes/TaskManager/ALTaskChain.h; sourceTree = "<group>"; };
+		C7277CF91F46D4030068A8EF /* ALTaskChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskChain.m; path = ../ALFramework/Classes/TaskManager/ALTaskChain.m; sourceTree = "<group>"; };
+		C7277CFA1F46D4030068A8EF /* ALTaskArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTaskArray.h; path = ../ALFramework/Classes/TaskManager/ALTaskArray.h; sourceTree = "<group>"; };
+		C7277CFB1F46D4030068A8EF /* ALTaskArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskArray.m; path = ../ALFramework/Classes/TaskManager/ALTaskArray.m; sourceTree = "<group>"; };
+		C7277CFC1F46D4030068A8EF /* ALTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTaskManager.h; path = ../ALFramework/Classes/TaskManager/ALTaskManager.h; sourceTree = "<group>"; };
+		C7277CFD1F46D4030068A8EF /* ALTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskManager.m; path = ../ALFramework/Classes/TaskManager/ALTaskManager.m; sourceTree = "<group>"; };
+		C7DD32351F57ECAD00C4380B /* NSDecimalNumber+ALExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+ALExtension.h"; path = "../ALFramework/Classes/Category/NSDecimalNumber+ALExtension.h"; sourceTree = "<group>"; };
+		C7DD32361F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+ALExtension.m"; path = "../ALFramework/Classes/Category/NSDecimalNumber+ALExtension.m"; sourceTree = "<group>"; };
+		C7DD32381F5909BB00C4380B /* ALExeItemQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALExeItemQueue.h; path = ../ALFramework/Classes/CustomClass/ALExeItemQueue.h; sourceTree = "<group>"; };
+		C7DD32391F5909BB00C4380B /* ALExeItemQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALExeItemQueue.m; path = ../ALFramework/Classes/CustomClass/ALExeItemQueue.m; sourceTree = "<group>"; };
+		F81491DBA4891C4131ECB3B7 /* Pods-ALFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALFramework_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALFramework_Tests/Pods-ALFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				EEF55D8798E12F652EADA295 /* Pods_ALFramework_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C722E13E1F4C21BD00FDE2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				C7277C761F46CD570068A8EF /* SourceCode */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				F2C828A58BB535B743FF39AA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5AE195388D20070C39A /* ALFramework_Tests.xctest */,
+				C722E1411F4C21BD00FDE2A9 /* ALFrameworkSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C722E1601F4C2B0E00FDE2A9 /* ALFramework.framework */,
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				6FD3D798159E361BCA7DE855 /* Pods_ALFramework_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				254C2A01578E6672FCBD7B54 /* ALFramework.podspec */,
+				6886839A9895763D57714D0A /* README.md */,
+				524B87AB5BB5F38E565BE6C6 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		C722E1591F4C23AF00FDE2A9 /* ActionResult */ = {
+			isa = PBXGroup;
+			children = (
+				C7277CCB1F46D3F70068A8EF /* ALActionResult.h */,
+				C7277CCC1F46D3F70068A8EF /* ALActionResult.m */,
+				C722E15A1F4C246D00FDE2A9 /* ALActionResultStandardError.h */,
+				C722E15B1F4C246D00FDE2A9 /* ALActionResultStandardError.m */,
+			);
+			name = ActionResult;
+			sourceTree = "<group>";
+		};
+		C7250A611F5421CB0073139C /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				C7250A621F5421DF0073139C /* ALQueue.h */,
+				C7250A631F5421DF0073139C /* ALQueue.m */,
+				C7DD32381F5909BB00C4380B /* ALExeItemQueue.h */,
+				C7DD32391F5909BB00C4380B /* ALExeItemQueue.m */,
+			);
+			name = CustomClass;
+			sourceTree = "<group>";
+		};
+		C7277C761F46CD570068A8EF /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				C7277C901F46D3A90068A8EF /* ALFramework.h */,
+				C7250A611F5421CB0073139C /* CustomClass */,
+				C7277C891F46D3650068A8EF /* Testing */,
+				C7277C881F46D3380068A8EF /* 3rd_party_lib */,
+				C7277C871F46D3370068A8EF /* Category */,
+				C7277C861F46D3350068A8EF /* Components */,
+				C7277C851F46D3300068A8EF /* CustomControl */,
+				C7277C841F46D32E0068A8EF /* Localization */,
+				C7277C831F46D32D0068A8EF /* LogHelper */,
+				C7277C821F46D32B0068A8EF /* Network */,
+				C7277C811F46D3290068A8EF /* Support */,
+				C7277C801F46D3260068A8EF /* TaskManager */,
+			);
+			name = SourceCode;
+			sourceTree = "<group>";
+		};
+		C7277C801F46D3260068A8EF /* TaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				C7250A6D1F55108F0073139C /* ALExeItem.h */,
+				C7250A6E1F55108F0073139C /* ALExeItem.m */,
+				C7277CF61F46D4030068A8EF /* ALTask.h */,
+				C7277CF71F46D4030068A8EF /* ALTask.m */,
+				C7277CFA1F46D4030068A8EF /* ALTaskArray.h */,
+				C7277CFB1F46D4030068A8EF /* ALTaskArray.m */,
+				C7277CFC1F46D4030068A8EF /* ALTaskManager.h */,
+				C7277CFD1F46D4030068A8EF /* ALTaskManager.m */,
+				C722E15D1F4C28BE00FDE2A9 /* ALTaskGroup.h */,
+				C722E15E1F4C28BE00FDE2A9 /* ALTaskGroup.m */,
+				C7277CF81F46D4030068A8EF /* ALTaskChain.h */,
+				C7277CF91F46D4030068A8EF /* ALTaskChain.m */,
+			);
+			name = TaskManager;
+			sourceTree = "<group>";
+		};
+		C7277C811F46D3290068A8EF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C722E1591F4C23AF00FDE2A9 /* ActionResult */,
+				C7277CCD1F46D3F70068A8EF /* ALAlertMessage.h */,
+				C7277CCE1F46D3F70068A8EF /* ALAlertMessage.m */,
+				C7277CCF1F46D3F70068A8EF /* ALBasicToolBox.h */,
+				C7277CD01F46D3F70068A8EF /* ALBasicToolBox.m */,
+				C7277CD11F46D3F70068A8EF /* ALCommonMacros.h */,
+				C7277CD21F46D3F70068A8EF /* ALDateUitil.h */,
+				C7277CD31F46D3F70068A8EF /* ALDateUitil.m */,
+				C7277CD41F46D3F70068A8EF /* ALEncryptionToolBox.h */,
+				C7277CD51F46D3F70068A8EF /* ALEncryptionToolBox.m */,
+				C7277CD61F46D3F70068A8EF /* ALFileHelper.h */,
+				C7277CD71F46D3F70068A8EF /* ALFileHelper.m */,
+				C7277CD81F46D3F70068A8EF /* ALJsonHelper.h */,
+				C7277CD91F46D3F70068A8EF /* ALJsonHelper.m */,
+				C7277CDA1F46D3F70068A8EF /* ALPatentUitil.h */,
+				C7277CDB1F46D3F70068A8EF /* ALPatentUitil.m */,
+				C7277CDC1F46D3F70068A8EF /* ALQRCodeCreator.h */,
+				C7277CDD1F46D3F70068A8EF /* ALQRCodeCreator.m */,
+				C7277CDE1F46D3F70068A8EF /* ALScanQRCodeHelper.h */,
+				C7277CDF1F46D3F70068A8EF /* ALScanQRCodeHelper.m */,
+				C7277CE01F46D3F70068A8EF /* ALThouchIDUitil.h */,
+				C7277CE11F46D3F70068A8EF /* ALThouchIDUitil.m */,
+				C7277CE21F46D3F70068A8EF /* ALThousandSeparatorUitil.h */,
+				C7277CE31F46D3F70068A8EF /* ALThousandSeparatorUitil.m */,
+				C7277CE41F46D3F70068A8EF /* ALTimer.h */,
+				C7277CE51F46D3F70068A8EF /* ALTimer.m */,
+				C7277CE61F46D3F70068A8EF /* ALTimerManager.h */,
+				C7277CE71F46D3F70068A8EF /* ALTimerManager.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		C7277C821F46D32B0068A8EF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C7277CC51F46D3EE0068A8EF /* ALHttpRequest.h */,
+				C7277CC61F46D3EE0068A8EF /* ALHttpRequest.m */,
+				C7277CC71F46D3EE0068A8EF /* ALNetworkHelper.h */,
+				C7277CC81F46D3EE0068A8EF /* ALNetworkHelper.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C7277C831F46D32D0068A8EF /* LogHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C7277CBE1F46D3E50068A8EF /* ALLogHelper.h */,
+				C7277CBF1F46D3E50068A8EF /* ALLogHelper.mm */,
+				C7277CC01F46D3E50068A8EF /* ALLogMeta.h */,
+				C7277CC11F46D3E50068A8EF /* ALLogMeta.mm */,
+				C7277CC21F46D3E50068A8EF /* ALLogMeta+WCTTableCoding.h */,
+			);
+			name = LogHelper;
+			sourceTree = "<group>";
+		};
+		C7277C841F46D32E0068A8EF /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				C7277CBB1F46D3DB0068A8EF /* ALLocalizationHelper.h */,
+				C7277CBC1F46D3DB0068A8EF /* ALLocalizationHelper.m */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		C7277C851F46D3300068A8EF /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				C7277CB21F46D3D20068A8EF /* ALButton.h */,
+				C7277CB31F46D3D20068A8EF /* ALButton.m */,
+				C7277CB41F46D3D20068A8EF /* ALRefreshControl.h */,
+				C7277CB51F46D3D20068A8EF /* ALRefreshControl.m */,
+				C7277CB61F46D3D20068A8EF /* ALUIBarButtonItem.h */,
+				C7277CB71F46D3D20068A8EF /* ALUIBarButtonItem.m */,
+			);
+			name = CustomControl;
+			sourceTree = "<group>";
+		};
+		C7277C861F46D3350068A8EF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C7277C9D1F46D3C70068A8EF /* ALAlertView.h */,
+				C7277C9E1F46D3C70068A8EF /* ALAlertView.m */,
+				C7277C9F1F46D3C70068A8EF /* ALCustomPopUp.h */,
+				C7277CA01F46D3C70068A8EF /* ALCustomPopUp.m */,
+				C7277CA11F46D3C70068A8EF /* ALGradientLoadingIndicator.h */,
+				C7277CA21F46D3C70068A8EF /* ALGradientLoadingIndicator.m */,
+				C7277CA31F46D3C70068A8EF /* ALImageAdjustmentView.h */,
+				C7277CA41F46D3C70068A8EF /* ALImageAdjustmentView.m */,
+				C7277CA51F46D3C70068A8EF /* ALImagePickerView.h */,
+				C7277CA61F46D3C70068A8EF /* ALImagePickerView.m */,
+				C7277CA71F46D3C70068A8EF /* ALThousandSeparatorLabel.h */,
+				C7277CA81F46D3C70068A8EF /* ALThousandSeparatorLabel.m */,
+				C7277CA91F46D3C70068A8EF /* ALThousandSeparatorTextField.h */,
+				C7277CAA1F46D3C70068A8EF /* ALThousandSeparatorTextField.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		C7277C871F46D3370068A8EF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C7277C941F46D3BF0068A8EF /* NSString+ALExtension.h */,
+				C7277C951F46D3BF0068A8EF /* NSString+ALExtension.m */,
+				C7277C961F46D3BF0068A8EF /* UIImage+ALExtension.h */,
+				C7277C971F46D3BF0068A8EF /* UIImage+ALExtension.m */,
+				C7277C981F46D3BF0068A8EF /* UINavigationController+ALExtension.h */,
+				C7277C991F46D3BF0068A8EF /* UINavigationController+ALExtension.m */,
+				C7DD32351F57ECAD00C4380B /* NSDecimalNumber+ALExtension.h */,
+				C7DD32361F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		C7277C881F46D3380068A8EF /* 3rd_party_lib */ = {
+			isa = PBXGroup;
+			children = (
+				C7277C911F46D3B50068A8EF /* Reachability.h */,
+				C7277C921F46D3B50068A8EF /* Reachability.m */,
+			);
+			name = 3rd_party_lib;
+			sourceTree = "<group>";
+		};
+		C7277C891F46D3650068A8EF /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				C7277C8A1F46D3780068A8EF /* ALAPITestingFunction.h */,
+				C7277C8B1F46D3780068A8EF /* ALAPITestingFunction.m */,
+				C7277C8C1F46D3780068A8EF /* UIView+ALTestingFunction.h */,
+				C7277C8D1F46D3780068A8EF /* UIView+ALTestingFunction.m */,
+			);
+			name = Testing;
+			sourceTree = "<group>";
+		};
+		F2C828A58BB535B743FF39AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F81491DBA4891C4131ECB3B7 /* Pods-ALFramework_Tests.debug.xcconfig */,
+				20D0B6A4AE714365B298CE30 /* Pods-ALFramework_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F5AD195388D20070C39A /* ALFramework_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ALFramework_Tests" */;
+			buildPhases = (
+				0A6DF8E2ABA70E2F8FA06501 /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				A3271488F0826E2684E949F6 /* [CP] Embed Pods Frameworks */,
+				89CF3557BB2CDAE4E696A86C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALFramework_Tests;
+			productName = ALFrameworkTests;
+			productReference = 6003F5AE195388D20070C39A /* ALFramework_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C722E1401F4C21BD00FDE2A9 /* ALFrameworkSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C722E1571F4C21BD00FDE2A9 /* Build configuration list for PBXNativeTarget "ALFrameworkSample" */;
+			buildPhases = (
+				C722E13D1F4C21BD00FDE2A9 /* Sources */,
+				C722E13E1F4C21BD00FDE2A9 /* Frameworks */,
+				C722E13F1F4C21BD00FDE2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALFrameworkSample;
+			productName = ALFrameworkSample;
+			productReference = C722E1411F4C21BD00FDE2A9 /* ALFrameworkSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AL;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Alanc;
+				TargetAttributes = {
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+					C722E1401F4C21BD00FDE2A9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V5MJ5VLR7Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ALFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F5AD195388D20070C39A /* ALFramework_Tests */,
+				C722E1401F4C21BD00FDE2A9 /* ALFrameworkSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C722E13F1F4C21BD00FDE2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A6DF8E2ABA70E2F8FA06501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89CF3557BB2CDAE4E696A86C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALFramework_Tests/Pods-ALFramework_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3271488F0826E2684E949F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALFramework_Tests/Pods-ALFramework_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7277CE81F46D3F70068A8EF /* ALActionResult.m in Sources */,
+				C7277CAB1F46D3C70068A8EF /* ALAlertView.m in Sources */,
+				C7277CED1F46D3F70068A8EF /* ALFileHelper.m in Sources */,
+				C722E15F1F4C28BE00FDE2A9 /* ALTaskGroup.m in Sources */,
+				C7277CCA1F46D3EE0068A8EF /* ALNetworkHelper.m in Sources */,
+				C7277CB01F46D3C70068A8EF /* ALThousandSeparatorLabel.m in Sources */,
+				C7277CEB1F46D3F70068A8EF /* ALDateUitil.m in Sources */,
+				C7277CF31F46D3F70068A8EF /* ALThousandSeparatorUitil.m in Sources */,
+				C7277CC91F46D3EE0068A8EF /* ALHttpRequest.m in Sources */,
+				C7277C8E1F46D3780068A8EF /* ALAPITestingFunction.m in Sources */,
+				C7DD32371F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m in Sources */,
+				C7250A641F5421DF0073139C /* ALQueue.m in Sources */,
+				C7277CEF1F46D3F70068A8EF /* ALPatentUitil.m in Sources */,
+				C7277C9A1F46D3BF0068A8EF /* NSString+ALExtension.m in Sources */,
+				C7277CF01F46D3F70068A8EF /* ALQRCodeCreator.m in Sources */,
+				C7277CEA1F46D3F70068A8EF /* ALBasicToolBox.m in Sources */,
+				C7277D011F46D4030068A8EF /* ALTaskManager.m in Sources */,
+				C7277CAF1F46D3C70068A8EF /* ALImagePickerView.m in Sources */,
+				C7277CBD1F46D3DB0068A8EF /* ALLocalizationHelper.m in Sources */,
+				C7277CC41F46D3E50068A8EF /* ALLogMeta.mm in Sources */,
+				C7277CF51F46D3F70068A8EF /* ALTimerManager.m in Sources */,
+				C7277CEC1F46D3F70068A8EF /* ALEncryptionToolBox.m in Sources */,
+				C7277CAE1F46D3C70068A8EF /* ALImageAdjustmentView.m in Sources */,
+				C722E15C1F4C246D00FDE2A9 /* ALActionResultStandardError.m in Sources */,
+				C7277CAD1F46D3C70068A8EF /* ALGradientLoadingIndicator.m in Sources */,
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				C7277CF41F46D3F70068A8EF /* ALTimer.m in Sources */,
+				C7277CBA1F46D3D20068A8EF /* ALUIBarButtonItem.m in Sources */,
+				C7277C931F46D3B50068A8EF /* Reachability.m in Sources */,
+				C7277C9C1F46D3BF0068A8EF /* UINavigationController+ALExtension.m in Sources */,
+				C7DD323A1F5909BB00C4380B /* ALExeItemQueue.m in Sources */,
+				C7277CB91F46D3D20068A8EF /* ALRefreshControl.m in Sources */,
+				C7277CB11F46D3C70068A8EF /* ALThousandSeparatorTextField.m in Sources */,
+				C7277CC31F46D3E50068A8EF /* ALLogHelper.mm in Sources */,
+				C7250A6F1F55108F0073139C /* ALExeItem.m in Sources */,
+				C7277C9B1F46D3BF0068A8EF /* UIImage+ALExtension.m in Sources */,
+				C7277CAC1F46D3C70068A8EF /* ALCustomPopUp.m in Sources */,
+				C7277D001F46D4030068A8EF /* ALTaskArray.m in Sources */,
+				C7277CE91F46D3F70068A8EF /* ALAlertMessage.m in Sources */,
+				C7277CFF1F46D4030068A8EF /* ALTaskChain.m in Sources */,
+				C7277C8F1F46D3780068A8EF /* UIView+ALTestingFunction.m in Sources */,
+				C7277CEE1F46D3F70068A8EF /* ALJsonHelper.m in Sources */,
+				C7277CF21F46D3F70068A8EF /* ALThouchIDUitil.m in Sources */,
+				C7277CB81F46D3D20068A8EF /* ALButton.m in Sources */,
+				C7277CFE1F46D4030068A8EF /* ALTask.m in Sources */,
+				C7277CF11F46D3F70068A8EF /* ALScanQRCodeHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C722E13D1F4C21BD00FDE2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81491DBA4891C4131ECB3B7 /* Pods-ALFramework_Tests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALFramework_Example.app/ALFramework_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D0B6A4AE714365B298CE30 /* Pods-ALFramework_Tests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALFramework_Example.app/ALFramework_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		C722E1551F4C21BD00FDE2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V5MJ5VLR7Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ALFramework",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ALFrameworkSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanc.personal.ALFrameworkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C722E1561F4C21BD00FDE2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V5MJ5VLR7Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ALFramework",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ALFrameworkSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanc.personal.ALFrameworkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ALFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ALFramework_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C722E1571F4C21BD00FDE2A9 /* Build configuration list for PBXNativeTarget "ALFrameworkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C722E1551F4C21BD00FDE2A9 /* Debug */,
+				C722E1561F4C21BD00FDE2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}
