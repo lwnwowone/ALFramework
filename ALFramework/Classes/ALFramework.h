@@ -27,6 +27,7 @@
 //Network
 #import "ALHttpRequest.h"
 #import "ALNetworkHelper.h"
+#import "ALHttpClient.h"
 
 //LogHelper
 #import "ALLogHelper.h"

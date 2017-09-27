@@ -8,6 +8,7 @@
 
 #import "ALNetworkHelper.h"
 #import "Reachability.h"
+#import "ALConfig.h"
 
 @interface ALNetworkHelper()
 
@@ -42,7 +43,7 @@ static ALNetworkHelper* instance;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
     
-    NSString *remoteHostName = @"www.apple.com";
+    NSString *remoteHostName = INTERNET_CHECK_URL;
     reachabilityInstance = [Reachability reachabilityWithHostName:remoteHostName];
     [reachabilityInstance startNotifier];
     [self updateInterfaceWithReachability:reachabilityInstance];

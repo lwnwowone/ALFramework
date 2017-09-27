@@ -69,6 +69,8 @@
         return 4.7;
     else if(414 == screenWidth && 736 == screenHeight)
         return 5.5;
+    else if(375 == screenWidth && 812 == screenHeight)
+        return 5.8;
     
     return 0;
 }

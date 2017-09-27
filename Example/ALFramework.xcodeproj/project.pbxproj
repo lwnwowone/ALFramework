@@ -55,8 +55,7 @@
 		C7277CFF1F46D4030068A8EF /* ALTaskChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CF91F46D4030068A8EF /* ALTaskChain.m */; };
 		C7277D001F46D4030068A8EF /* ALTaskArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CFB1F46D4030068A8EF /* ALTaskArray.m */; };
 		C7277D011F46D4030068A8EF /* ALTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7277CFD1F46D4030068A8EF /* ALTaskManager.m */; };
-		C7DD32371F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD32361F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m */; };
-		C7DD323A1F5909BB00C4380B /* ALExeItemQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD32391F5909BB00C4380B /* ALExeItemQueue.m */; };
+		C7643D0C1F5572F600AF9C6A /* ALDelayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7643D0B1F5572F600AF9C6A /* ALDelayHelper.m */; };
 		EEF55D8798E12F652EADA295 /* Pods_ALFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD3D798159E361BCA7DE855 /* Pods_ALFramework_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -166,10 +165,8 @@
 		C7277CFB1F46D4030068A8EF /* ALTaskArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskArray.m; path = ../ALFramework/Classes/TaskManager/ALTaskArray.m; sourceTree = "<group>"; };
 		C7277CFC1F46D4030068A8EF /* ALTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTaskManager.h; path = ../ALFramework/Classes/TaskManager/ALTaskManager.h; sourceTree = "<group>"; };
 		C7277CFD1F46D4030068A8EF /* ALTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskManager.m; path = ../ALFramework/Classes/TaskManager/ALTaskManager.m; sourceTree = "<group>"; };
-		C7DD32351F57ECAD00C4380B /* NSDecimalNumber+ALExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+ALExtension.h"; path = "../ALFramework/Classes/Category/NSDecimalNumber+ALExtension.h"; sourceTree = "<group>"; };
-		C7DD32361F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+ALExtension.m"; path = "../ALFramework/Classes/Category/NSDecimalNumber+ALExtension.m"; sourceTree = "<group>"; };
-		C7DD32381F5909BB00C4380B /* ALExeItemQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALExeItemQueue.h; path = ../ALFramework/Classes/CustomClass/ALExeItemQueue.h; sourceTree = "<group>"; };
-		C7DD32391F5909BB00C4380B /* ALExeItemQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALExeItemQueue.m; path = ../ALFramework/Classes/CustomClass/ALExeItemQueue.m; sourceTree = "<group>"; };
+		C7643D0A1F5572F600AF9C6A /* ALDelayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALDelayHelper.h; path = ../ALFramework/Classes/Support/ALDelayHelper.h; sourceTree = "<group>"; };
+		C7643D0B1F5572F600AF9C6A /* ALDelayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALDelayHelper.m; path = ../ALFramework/Classes/Support/ALDelayHelper.m; sourceTree = "<group>"; };
 		F81491DBA4891C4131ECB3B7 /* Pods-ALFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALFramework_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALFramework_Tests/Pods-ALFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -274,8 +271,6 @@
 			children = (
 				C7250A621F5421DF0073139C /* ALQueue.h */,
 				C7250A631F5421DF0073139C /* ALQueue.m */,
-				C7DD32381F5909BB00C4380B /* ALExeItemQueue.h */,
-				C7DD32391F5909BB00C4380B /* ALExeItemQueue.m */,
 			);
 			name = CustomClass;
 			sourceTree = "<group>";
@@ -321,6 +316,8 @@
 		C7277C811F46D3290068A8EF /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				C7643D0A1F5572F600AF9C6A /* ALDelayHelper.h */,
+				C7643D0B1F5572F600AF9C6A /* ALDelayHelper.m */,
 				C722E1591F4C23AF00FDE2A9 /* ActionResult */,
 				C7277CCD1F46D3F70068A8EF /* ALAlertMessage.h */,
 				C7277CCE1F46D3F70068A8EF /* ALAlertMessage.m */,
@@ -428,8 +425,6 @@
 				C7277C971F46D3BF0068A8EF /* UIImage+ALExtension.m */,
 				C7277C981F46D3BF0068A8EF /* UINavigationController+ALExtension.h */,
 				C7277C991F46D3BF0068A8EF /* UINavigationController+ALExtension.m */,
-				C7DD32351F57ECAD00C4380B /* NSDecimalNumber+ALExtension.h */,
-				C7DD32361F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -623,7 +618,6 @@
 				C7277CF31F46D3F70068A8EF /* ALThousandSeparatorUitil.m in Sources */,
 				C7277CC91F46D3EE0068A8EF /* ALHttpRequest.m in Sources */,
 				C7277C8E1F46D3780068A8EF /* ALAPITestingFunction.m in Sources */,
-				C7DD32371F57ECAD00C4380B /* NSDecimalNumber+ALExtension.m in Sources */,
 				C7250A641F5421DF0073139C /* ALQueue.m in Sources */,
 				C7277CEF1F46D3F70068A8EF /* ALPatentUitil.m in Sources */,
 				C7277C9A1F46D3BF0068A8EF /* NSString+ALExtension.m in Sources */,
@@ -643,7 +637,6 @@
 				C7277CBA1F46D3D20068A8EF /* ALUIBarButtonItem.m in Sources */,
 				C7277C931F46D3B50068A8EF /* Reachability.m in Sources */,
 				C7277C9C1F46D3BF0068A8EF /* UINavigationController+ALExtension.m in Sources */,
-				C7DD323A1F5909BB00C4380B /* ALExeItemQueue.m in Sources */,
 				C7277CB91F46D3D20068A8EF /* ALRefreshControl.m in Sources */,
 				C7277CB11F46D3C70068A8EF /* ALThousandSeparatorTextField.m in Sources */,
 				C7277CC31F46D3E50068A8EF /* ALLogHelper.mm in Sources */,
@@ -658,6 +651,7 @@
 				C7277CF21F46D3F70068A8EF /* ALThouchIDUitil.m in Sources */,
 				C7277CB81F46D3D20068A8EF /* ALButton.m in Sources */,
 				C7277CFE1F46D4030068A8EF /* ALTask.m in Sources */,
+				C7643D0C1F5572F600AF9C6A /* ALDelayHelper.m in Sources */,
 				C7277CF11F46D3F70068A8EF /* ALScanQRCodeHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
