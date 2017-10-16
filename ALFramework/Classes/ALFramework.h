@@ -12,12 +12,6 @@
 #import "ALActionResult.h"
 #import "ALActionResultStandardError.h"
 
-//SqliteHelper
-//#import "ALSqliteHelper.h"
-//#import "ALDataTable.h"
-//#import "ALDatabaseParameter.h"
-//#import "ALDataRow.h"
-
 //ThreadManager
 #import "ALTaskManager.h"
 #import "ALTask.h"
